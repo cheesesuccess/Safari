@@ -10,6 +10,8 @@ const Schema = z.object({
     recommendationId: z.string(),
 });
 
+export const dynamic: "force-dynamic" = "force-dynamic";
+
 export async function POST (req: Request) {
     try {
         
