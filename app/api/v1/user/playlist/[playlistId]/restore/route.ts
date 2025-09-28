@@ -3,6 +3,8 @@ import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 import { differenceInDays } from "date-fns";
 
+export const dynamic: "force-dynamic" = "force-dynamic";
+
 export async function PATCH (
     _req: Request,
     { params } : { params : { playlistId : string } }
