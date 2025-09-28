@@ -4,6 +4,7 @@ import { db } from "@/lib/db";
 import { ResetPasswordSchema } from "@/schemas/reset.schema";
 import bcrypt from "bcryptjs";
 
+export const dynamic: "force-dynamic" = "force-dynamic";
 
 export async function PATCH ( req : Request ) {
     try {
