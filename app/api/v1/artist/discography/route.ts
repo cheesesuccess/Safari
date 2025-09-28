@@ -2,8 +2,9 @@ import { db } from "@/lib/db";
 import { Album, Song } from "@prisma/client";
 import { NextResponse } from "next/server";
 
-
 const BATCH = 6
+
+export const dynamic: "force-dynamic" = "force-dynamic";
 
 export async function GET ( req: Request ) {
     try {
