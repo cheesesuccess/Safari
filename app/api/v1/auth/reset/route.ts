@@ -5,7 +5,7 @@ import { generateForgetPasswordToken } from "@/lib/tokens";
 import { ForgetPasswordSchema } from "@/schemas/forget-password.schema";
 import { NextResponse } from "next/server";
 
-
+export const dynamic: "force-dynamic" = "force-dynamic";
 
 export async function POST ( req : Request ) {
     try {
