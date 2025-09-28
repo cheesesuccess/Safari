@@ -4,6 +4,7 @@ import { NextResponse } from "next/server";
 import speakeasy from "speakeasy";
 import bcrypt from "bcryptjs"
 
+export const dynamic: "force-dynamic" = "force-dynamic";
 
 export async function POST ( req: Request ) {
     try {
