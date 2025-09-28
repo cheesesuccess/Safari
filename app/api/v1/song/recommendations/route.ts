@@ -3,6 +3,8 @@ import { db } from "@/lib/db";
 import { qdrant } from "@/lib/qdrant";
 import { NextResponse } from "next/server";
 
+export const dynamic: "force-dynamic" = "force-dynamic";
+
 export async function GET ( req: Request ) {
     try {
         
