@@ -11,6 +11,7 @@ const ERROR_MESSAGES = [
     "The lyrics have gone on vacation, and they forgot to leave a forwarding address.",
 ]
 
+export const dynamic: "force-dynamic" = "force-dynamic";
 
 export async function GET ( req : Request ) {
     try {
