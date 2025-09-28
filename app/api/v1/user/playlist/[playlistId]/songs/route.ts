@@ -7,6 +7,8 @@ const BodySchema = z.object({
     songIds : z.string().array().min(1)
 });
 
+export const dynamic: "force-dynamic" = "force-dynamic";
+
 export async function POST (
     req : Request,
     { params } : { params : { playlistId : string } }
