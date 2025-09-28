@@ -6,6 +6,8 @@ import bcrypt from "bcryptjs";
 import { sendVerificationEmail } from "@/lib/mail";
 import { rateLimit } from "@/lib/ratelimit";
 
+export const dynamic: "force-dynamic" = "force-dynamic";
+
 export async function POST ( request : Request ) {
     try {
         
