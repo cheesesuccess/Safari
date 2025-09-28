@@ -4,6 +4,7 @@ import speakeasy from "speakeasy";
 import { NextResponse } from "next/server";
 import { TwoFactorAuthSchema } from "@/schemas/two-factor.schema";
 
+export const dynamic: "force-dynamic" = "force-dynamic";
 
 export async function PATCH ( req: Request ) {
     try {
