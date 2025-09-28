@@ -3,6 +3,8 @@ import { db } from "@/lib/db";
 import { PlaylistSchema } from "@/schemas/playlist.schema";
 import { NextResponse } from "next/server";
 
+export const dynamic: "force-dynamic" = "force-dynamic";
+
 export async function POST ( req : Request ) {
     try {
         
