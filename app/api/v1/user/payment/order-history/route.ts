@@ -5,6 +5,8 @@ import { db } from "@/lib/db";
 
 const BATCH = 10;
 
+export const dynamic: "force-dynamic" = "force-dynamic";
+
 export async function GET (req: Request) {
     try {
         
