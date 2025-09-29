@@ -2,8 +2,6 @@ import { auth } from "@/auth";
 import { db } from "@/lib/db";
 import { NextResponse } from "next/server";
 
-export const dynamic: "force-dynamic" = "force-dynamic";
-
 export async function GET (request: Request, { params }: { params: { moodId: string } }) {
     try {
         
