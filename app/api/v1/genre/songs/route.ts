@@ -4,8 +4,6 @@ import { NextResponse } from "next/server";
 
 const SONGS_BATCH = 10;
 
-export const dynamic: "force-dynamic" = "force-dynamic";
-
 export async function GET  (req : Request) {
     try {
         
