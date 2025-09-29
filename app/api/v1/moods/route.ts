@@ -4,8 +4,6 @@ import { NextResponse } from "next/server";
 
 const LIMIT = 10;
 
-export const dynamic: "force-dynamic" = "force-dynamic";
-
 export async function GET (request: Request) {
     try {
 
