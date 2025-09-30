@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Dreamscape",
+    "image": "https://my-bucket.s3.amazonaws.com/song1.jpg",
+    "url": "https://my-bucket.s3.amazonaws.com/song1.mp3",
+    "duration": 210,
+    "albumId": {
+      "$oid": "652f9c8c9b1234567890a100"
+    },
+    "artistIds": [
+      {
+        "$oid": "652f9d8e9b1234567890a001"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Flow",
+    "image": "https://my-bucket.s3.amazonaws.com/song2.jpg",
+    "url": "https://my-bucket.s3.amazonaws.com/song2.mp3",
+    "duration": 180,
+    "albumId": {
+      "$oid": "652f9c8c9b1234567890a100"
+    },
+    "artistIds": [
+      {
+        "$oid": "652f9d8e9b1234567890a001"
+      }
+    ]
+  },
+  {
+    "name": "City Nights",
+    "image": "https://my-bucket.s3.amazonaws.com/song3.jpg",
+    "url": "https://my-bucket.s3.amazonaws.com/song3.mp3",
+    "duration": 200,
+    "albumId": {
+      "$oid": "652f9c8c9b1234567890a101"
+    },
+    "artistIds": [
+      {
+        "$oid": "652f9d8e9b1234567890a002"
+      }
+    ]
+  },
+  {
+    "name": "Skyline Drive",
+    "image": "https://my-bucket.s3.amazonaws.com/song4.jpg",
+    "url": "https://my-bucket.s3.amazonaws.com/song4.mp3",
+    "duration": 240,
+    "albumId": {
+      "$oid": "652f9c8c9b1234567890a101"
+    },
+    "artistIds": [
+      {
+        "$oid": "652f9d8e9b1234567890a002"
+      }
+    ]
+  },
+  {
+    "name": "Morning Glow",
+    "image": "https://my-bucket.s3.amazonaws.com/song5.jpg",
+    "url": "https://my-bucket.s3.amazonaws.com/song5.mp3",
+    "duration": 190,
+    "albumId": {
+      "$oid": "652f9c8c9b1234567890a100"
+    },
+    "artistIds": [
+      {
+        "$oid": "652f9d8e9b1234567890a001"
+      }
+    ]
+  },
+  {
+    "name": "Desert Mirage",
+    "image": "https://my-bucket.s3.amazonaws.com/song6.jpg",
+    "url": "https://my-bucket.s3.amazonaws.com/song6.mp3",
+    "duration": 250,
+    "albumId": {
+      "$oid": "652f9c8c9b1234567890a101"
+    },
+    "artistIds": [
+      {
+        "$oid": "652f9d8e9b1234567890a002"
+      }
+    ]
+  },
+  {
+    "name": "Midnight Run",
+    "image": "https://my-bucket.s3.amazonaws.com/song7.jpg",
+    "url": "https://my-bucket.s3.amazonaws.com/song7.mp3",
+    "duration": 230,
+    "albumId": {
+      "$oid": "652f9c8c9b1234567890a101"
+    },
+    "artistIds": [
+      {
+        "$oid": "652f9d8e9b1234567890a002"
+      }
+    ]
+  }
+]
